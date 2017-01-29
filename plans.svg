@@ -1,0 +1,170 @@
+<?xml version="1.0" standalone="yes"?>
+<svg height="1775" width="600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            stroke: black;
+            fill: none;
+        }
+        path.shape {
+            stroke-width: 2px;
+        }
+        path.fold {
+            stroke-dasharray: 5 5;
+            stroke-width: 1px;
+        }
+        path.fold.full {
+            stroke-dasharray: 5 2;
+            stroke-width: 2px;
+        }
+        path.beneath {
+            stroke: darkgrey;
+            stroke-width: 2px;
+            stroke-dasharray: 5 5;
+        }
+        path.sew {
+            stroke-dasharray: 5 5;
+            stroke: blue;
+            stroke-width: 1.5px;
+        }
+        path.measurements {
+            stroke: darkgrey;
+            stroke-width: 1px;
+        }
+        path.ring {
+            stroke-width: 8px;
+            stroke: darkgrey;
+            stroke-linecap: butt;
+        }
+        text {
+            dominant-baseline: middle;
+        }
+        text.measurements {
+            fill: darkgrey;
+        }
+        text.label {
+            font-size: 18pt;
+            fill: black;
+        }
+        text.title {
+            font-size: 26pt;
+            font-weight: bold
+            fill: black;
+            font-family: sans-serif;
+        }
+        tspan.sew {
+            fill: blue;
+        }
+
+    </style>
+    <text x="20" y="30" class="title">BDSM Collar Leash/Tag Attachment</text>
+        <g transform="translate(20, 50)">
+        <g transform="translate(0, 0)">
+            <text x="20" y="20" class="label">Loop:</text>
+            <path d="M 50 50 l 450 0 l 0 75 l -450 0 l 0 -50 z" class="shape" />
+            <path d="M 50 125 l 75 -75 M 500 125 l -75 -75 z" class="fold" />
+            <path d="M 50 135 l 0 15 l 200 0 M 295 150 L 500 150 l 0 -15
+                     M 510 50 l 15 0 l 0 25 m 0 20 l 0 30 l -15 0"
+                class="measurements" />
+            <text text-anchor="middle" x="275" y="150" class="measurements">4½"</text>
+            <text x="515" y="87.5" class="measurements">¾"</text>
+        </g>
+        <g transform="translate(0, 200)">
+            <text x="20" y="0" class="label">Strap:</text>
+            <path d="M 50 50 l 350 0 l 0 75 l -350 0 l 0 -31.25 l 75 0 l 0 -12.5 l -75 0 l 0 -31.25 z" class="shape" />
+            <path d="M 250 50 l 0 75" class="fold" />
+            <path d="M 50 135 l 0 15 l 150 0 M 245 150 L 400 150 l 0 -15
+                     M 410 50 l 15 0 l 0 25 m 0 20 l 0 30 l -15 0
+                     M 50 40 l 0 -15 l 20 0 m 35 0 l 20 0 l 0 15
+                     M 40 81.25 l -10 0 l 0 12.5 l 10 0
+                     M 250 40 l 0 -15 l 50 0 m 50 0 l 50 0 l 0 15"
+                class="measurements" />
+            <text text-anchor="middle" x="225" y="150" class="measurements">3½"</text>
+            <text x="415" y="87.5" class="measurements">¾"</text>
+            <text text-anchor="middle" x="87.5" y="30" class="measurements">¾"</text>
+            <text text-anchor="middle" x="15" y="87.5" class="measurements">⅛"</text>
+            <text text-anchor="middle" x="325" y="30" class="measurements">1½"</text>
+        </g>
+        <g transform="translate(0, 400)">
+            <text x="20" y="20" class="label">Construction:</text>
+            <g transform="translate(50, 50)">
+                <text x="0" y="0">1. Fold the loop around and <tspan class="sew">sew</tspan> at the marked folds:</text>
+                <path d="M 0 120 l 100 -100 l 53 53 l -100 100 l 50 50
+                         m -53 53 l -50 -50
+                         M 0 120 l 53 53" class="shape" />
+                <path d="M 0 120 l 0 107
+                         m 50 50 l 53 -53" class="fold full" />
+                <path d="M 100 20 l 0 107" class="sew" />
+            </g>
+            <g transform="translate(50, 340)">
+                <text x="0" y="20">2. invert the loop and fold the folds flat around the <tspan class="sew">sewed</tspan> line, trim tip:</text>
+                <path d="M 0 170 l 110 -110 l 20 0 l 110 110 l -240 0
+                         m 53 53 l 134 0
+                         M 120 160 l -10 10
+                         M 120 160 l 10 10
+                         M 120 160 l -55 -55
+                         M 120 160 l 55 -55" class="shape" />
+                <path d="M 0 170 l 53 53
+                         M 240 170 l -53 53" class="fold full" />
+                <path d="M 118 60 l 0 107" class="fold" />
+                <path d="M 122 60 l 0 107" class="fold" />
+                <path d="M 120 60 l 0 107" class="sew" />
+            </g>
+            <g transform="translate(50, 600)">
+                <text x="0" y="0">3. insert the legs of the strap around the seam in the loop under the flaps</text>
+                <text x="17" y="20">and sew the square and remaining diagonal:</text>
+                <g transform="translate(0, 100)">
+                    <path d="M 0 170 l 110 -110 l 20 0 l 110 110 l -240 0
+                             m 53 53 l 134 0
+                             M 120 160 l -10 10
+                             M 120 160 l 10 10
+                             M 120 160 l -55 -55
+                             M 120 160 l 55 -55" class="shape" />
+                    <path d="M 0 170 l 53 53
+                             M 240 170 l -53 53" class="fold full" />
+                    <path d="M 118 60 l 0 107" class="fold" />
+                    <path d="M 122 60 l 0 107" class="fold" />
+                    <path d="M 120 60 l 0 107" class="sew" />
+                    <path d="M 130 65 l 40 40 l -50 50 l -50 -50 l 40 -40
+                             m 60 40 l -100 0" class="sew" />
+                </g>
+
+                <path d="M 82.5 50 l 0 138
+                         m 75 0 l 0 -138
+                         m 0 173 l 0 20 l -20 0
+                         m -34 0 l -20 0 l 0 -20
+                         M 82.5 50 s 18.75 10 37.5 0 s 18.75 -10 37.5 0" class="shape" />
+                <path d="M 82.5 189 l 0 32
+                         m 75 0 l 0 -32" class="beneath" />
+            </g>
+            <g transform="translate(50, 960)">
+                <text x="0" y="0">4. Thread the strap through the D-ring, fold, and <tspan class="sew">double-sew</tspan>:</text>
+                <g transform="translate(0, 120)">
+                    <path d="M 0 170 l 110 -110 l 20 0 l 110 110 l -240 0
+                             m 53 53 l 134 0
+                             M 120 160 l -10 10
+                             M 120 160 l 10 10
+                             M 120 160 l -55 -55
+                             M 120 160 l 55 -55" class="shape" />
+                    <path d="M 0 170 l 53 53
+                             M 240 170 l -53 53" class="fold full" />
+                    <path d="M 118 60 l 0 107" class="fold" />
+                    <path d="M 122 60 l 0 107" class="fold" />
+                    <path d="M 120 60 l 0 107" class="sew" />
+                    <path d="M 130 65 l 40 40 l -50 50 l -50 -50 l 40 -40
+                             m 60 40 l -100 0" class="sew" />
+                </g>
+
+                <path d="M 82.5 70 l 0 138
+                         m 75 0 l 0 -138
+                         m 0 173 l 0 20 l -20 0
+                         m -34 0 l -20 0 l 0 -20
+                         m 0 -75 l 75 0" class="shape" />
+                <path d="M 82.5 70 l 75 0" class="fold full" />
+                <path d="M 82.5 208 l 0 32
+                         m 75 0 l 0 -32" class="beneath" />
+                <path d="M 87 120 l 65 0 l 0 40 l -65 0 l 0 -40 l 65 40 m 0 -40 l -65 40" class="sew" />
+                <path d="M 82 80 a 10 10 0 0 1 -10 -10 a 48 48 0 0 1 96.5 0 a 10 10 0 0 1 -10 10" class="ring" />
+            </g>
+        </g>
+    </g>
+</svg>
