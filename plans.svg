@@ -63,10 +63,12 @@
             <path d="M 50 50 l 450 0 l 0 75 l -450 0 l 0 -50 z" class="shape" />
             <path d="M 50 125 l 75 -75 M 500 125 l -75 -75 z" class="fold" />
             <path d="M 50 135 l 0 15 l 200 0 M 295 150 L 500 150 l 0 -15
-                     M 510 50 l 15 0 l 0 25 m 0 20 l 0 30 l -15 0"
+                     M 510 50 l 15 0 l 0 25 m 0 20 l 0 30 l -15 0
+                     M 425 40 l 0 -15 l 20 0 m 35 0 l 20 0 l 0 15"
                 class="measurements" />
             <text text-anchor="middle" x="275" y="150" class="measurements">4½"</text>
             <text x="515" y="87.5" class="measurements">¾"</text>
+            <text text-anchor="middle" x="462.5" y="30" class="measurements">¾"</text>
         </g>
         <g transform="translate(0, 200)">
             <text x="20" y="0" class="label">Strap:</text>
@@ -105,9 +107,9 @@
                          M 120 160 l 55 -55" class="shape" />
                 <path d="M 0 170 l 53 53
                          M 240 170 l -53 53" class="fold full" />
-                <path d="M 118 60 l 0 107" class="fold" />
-                <path d="M 122 60 l 0 107" class="fold" />
-                <path d="M 120 60 l 0 107" class="sew" />
+                <path d="M 118 60 l 0 97" class="fold" />
+                <path d="M 122 60 l 0 97" class="fold" />
+                <path d="M 120 60 l 0 97" class="sew" />
             </g>
             <g transform="translate(50, 600)">
                 <text x="0" y="0">3. insert the legs of the strap around the seam in the loop under the flaps</text>
@@ -121,9 +123,9 @@
                              M 120 160 l 55 -55" class="shape" />
                     <path d="M 0 170 l 53 53
                              M 240 170 l -53 53" class="fold full" />
-                    <path d="M 118 60 l 0 107" class="fold" />
-                    <path d="M 122 60 l 0 107" class="fold" />
-                    <path d="M 120 60 l 0 107" class="sew" />
+                    <path d="M 118 60 l 0 97" class="fold" />
+                    <path d="M 122 60 l 0 97" class="fold" />
+                    <path d="M 120 60 l 0 97" class="sew" />
                     <path d="M 130 65 l 40 40 l -50 50 l -50 -50 l 40 -40
                              m 60 40 l -100 0" class="sew" />
                 </g>
@@ -147,9 +149,9 @@
                              M 120 160 l 55 -55" class="shape" />
                     <path d="M 0 170 l 53 53
                              M 240 170 l -53 53" class="fold full" />
-                    <path d="M 118 60 l 0 107" class="fold" />
-                    <path d="M 122 60 l 0 107" class="fold" />
-                    <path d="M 120 60 l 0 107" class="sew" />
+                    <path d="M 118 60 l 0 97" class="fold" />
+                    <path d="M 122 60 l 0 97" class="fold" />
+                    <path d="M 120 60 l 0 97" class="sew" />
                     <path d="M 130 65 l 40 40 l -50 50 l -50 -50 l 40 -40
                              m 60 40 l -100 0" class="sew" />
                 </g>
