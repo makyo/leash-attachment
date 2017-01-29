@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="yes"?>
-<svg height="1775" width="600" xmlns="http://www.w3.org/2000/svg">
+<svg height="1800" width="600" xmlns="http://www.w3.org/2000/svg">
     <style>
         path {
             stroke: black;
@@ -168,5 +168,7 @@
                 <path d="M 82 80 a 10 10 0 0 1 -10 -10 a 48 48 0 0 1 96.5 0 a 10 10 0 0 1 -10 10" class="ring" />
             </g>
         </g>
+        <text x="0" y="1720" class="measurements">Created by Madison Scott-Clary. Licensed under a </text>
+        <image x="0" y="1729" href="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /><text x="85" y="1739" class="measurements">Creative Commons Attribution-ShareAlike 4.0 International License.</text>
     </g>
 </svg>
